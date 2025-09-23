@@ -86,8 +86,8 @@ export default function AboutPage(){
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               <div className="bg-white p-8 rounded-lg shadow-md text-center">
-                <div className="bg-blue-100 p-3 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6">
-                  <TargetIcon size={28} className="text-blue-700" />
+                <div className="bg-black p-3 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6">
+                  <TargetIcon size={28} className="text-white" />
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">
                   Our Mission
@@ -100,8 +100,8 @@ export default function AboutPage(){
               </div>
 
               <div className="bg-white p-8 rounded-lg shadow-md text-center">
-                <div className="bg-blue-100 p-3 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6">
-                  <AwardIcon size={28} className="text-blue-700" />
+                <div className="bg-black p-3 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6">
+                  <AwardIcon size={28} className="text-white" />
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">
                   Our vision
@@ -114,8 +114,8 @@ export default function AboutPage(){
               </div>
 
               <div className="bg-white p-8 rounded-lg shadow-md text-center">
-                <div className="bg-blue-100 p-3 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6">
-                  <UsersIcon size={28} className="text-blue-700" />
+                <div className="bg-black p-3 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6">
+                  <UsersIcon size={28} className="text-white" />
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">
                   Our values

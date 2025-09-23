@@ -1,14 +1,9 @@
-"use client"
+"use client";
 
 import React from "react";
 import { FaFacebook, FaInstagram } from "react-icons/fa";
 import Link from "next/link";
-import {
-  PhoneIcon,
-  MailIcon,
-  MapPinIcon,
- 
-} from "lucide-react";
+import { PhoneIcon, MailIcon, MapPinIcon } from "lucide-react";
 export default function Footer() {
   return (
     <footer className="bg-gray-900 text-white">
@@ -87,7 +82,7 @@ export default function Footer() {
             </ul>
           </div>
           {/* Contact Info */}
-          <div>
+          <div id="contact">
             <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
             <ul className="space-y-3">
               <li className="flex items-start">
