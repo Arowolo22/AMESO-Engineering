@@ -53,7 +53,7 @@ export default function ServicePage (){
               <div className="rounded-lg overflow-hidden shadow-xl">
                 <Image
                   src="/prince.jpg"
-                  alt="Prince-Machine"
+                  alt="prince-Machine"
                   className="object-cover w-full"
                   width={200}
                   height={200}
@@ -201,67 +201,6 @@ export default function ServicePage (){
               </div>
             </div>
 
-            {/* Custom Machine Design
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-24">
-              <div className="order-2 lg:order-1">
-                <div className="inline-flex items-center bg-blue-100 text-blue-700 px-4 py-2 rounded-full text-sm font-medium mb-4">
-                  <HeartHandshakeIcon size={18} className="mr-2" /> Custom
-                  Design
-                </div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">
-                  Custom Machine Design
-                </h3>
-                <p className="text-lg text-gray-600 mb-6">
-                  When standard solutions don't meet your unique requirements,
-                  our engineering team can design and build custom machinery
-                  tailored to your specific needs.
-                </p>
-                <div className="space-y-3 mb-6">
-                  <div className="flex items-start">
-                    <CheckCircleIcon
-                      size={20}
-                      className="text-blue-700 mr-3 mt-0.5"
-                    />
-                    <p className="text-gray-600">
-                      Requirements analysis and consultation
-                    </p>
-                  </div>
-                  <div className="flex items-start">
-                    <CheckCircleIcon
-                      size={20}
-                      className="text-blue-700 mr-3 mt-0.5"
-                    />
-                    <p className="text-gray-600">3D modeling and prototyping</p>
-                  </div>
-                  <div className="flex items-start">
-                    <CheckCircleIcon
-                      size={20}
-                      className="text-blue-700 mr-3 mt-0.5"
-                    />
-                    <p className="text-gray-600">
-                      Custom fabrication and assembly
-                    </p>
-                  </div>
-                  <div className="flex items-start">
-                    <CheckCircleIcon
-                      size={20}
-                      className="text-blue-700 mr-3 mt-0.5"
-                    />
-                    <p className="text-gray-600">
-                      Testing and quality assurance
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="order-1 lg:order-2 rounded-lg overflow-hidden shadow-lg">
-                <img
-                  src="https://images.unsplash.com/photo-1581093450021-4a7360e9a6b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
-                  alt="Custom machine design"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-            </div> */}
-
             {/* Consultation Services */}
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div>
@@ -310,13 +249,33 @@ export default function ServicePage (){
                 </div>
               </div>
               <div className="rounded-lg overflow-hidden shadow-lg">
-                <img
-                  src="https://images.unsplash.com/photo-1553877522-43269d4ea984?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
-                  alt="Engineering consultation"
-                  className="w-full h-full object-cover"
+                <Image
+                  src="/consult.jpg"
+                  alt="Consultation-Service"
+                  className="object-cover w-full"
+                  width={200}
+                  height={200}
                 />
               </div>
             </div>
+          </div>
+        </section>
+
+        <section className="py-16 text-white bg-blue-700">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 className="text-3xl md:text-4xl font-bold">
+              Ready to Optimize Your Operations?
+            </h2>
+            <p className="tex-lg md:text-xl mx-auto max-w-3xl mt-4">
+              Contact our service team today to discuss how we can support your
+              industrial machinery needs.
+            </p>
+            <button
+              href="/contact us"
+              className="mt-8 bg-white text-black px-6 py-3 rounded-md font-medium"
+            >
+             Get In Touch
+            </button>
           </div>
         </section>
         <Footer />
