@@ -3,10 +3,7 @@ import Hero from "@/components/Hero";
 import Footer from "@/components/Footer"
 import Image from "next/image";
 import Link from "next/link";
-import HeroImage from "../../assets/hero-img.jpg";
 import Lathe from "../../assets/lathe.jpg";
-import Prince from "../../assets/prince.jpg";
-import Rubber from "../../assets/rubber.jpg";
 import Home from "../../assets/home.jpg"
 import { CheckCircleIcon, CogIcon, WrenchIcon, HammerIcon } from "lucide-react";
 
@@ -56,9 +53,11 @@ export default function HomePage() {
 
             <div className="bg-gray-50 rounded-xl shadow-md hover:-translate-y-1">
               <Image
-                src={Prince}
+                src="/prince.jpg"
                 alt="prince-machine"
                 className="w-full h-64 object-cover rounded-lg"
+                width={200}
+                height={200}
               />
               <div className="p-4">
                 <h3 className="text-lg font-semibold text-gray-900">
@@ -81,9 +80,11 @@ export default function HomePage() {
 
             <div className="bg-gray-50 rounded-xl shadow-md hover:-translate-y-1">
               <Image
-                src={Rubber}
+                src="/rubber.jpg"
                 alt="rubber-machine"
                 className="w-full h-64 object-cover rounded-lg"
+                width={200}
+                height={200}
               />
               <div className="p-4">
                 <h3 className="text-lg font-semibold text-gray-900">
@@ -282,10 +283,10 @@ export default function HomePage() {
             solutions can help optimize your production processes.
           </p>
           <button
-          href="/contact"
-           className="mt-8 bg-white text-black px-6 py-3 rounded-md font-medium">
+            href="/contact"
+            className="mt-8 bg-white text-black px-6 py-3 rounded-md font-medium"
+          >
             Contact Us Today
-
           </button>
         </div>
       </section>

@@ -6,6 +6,7 @@ import {
   UsersIcon,
   TargetIcon,
 } from "lucide-react";
+import Footer from "@/components/Footer"
 
 export default function AboutPage(){
     return (
@@ -127,6 +128,22 @@ export default function AboutPage(){
             </div>
           </div>
         </section>
+        <section className="py-16 bg-blue-700 text-white">
+          <div className="container px-4 md:px-6 lg:px-8 mx-auto text-center">
+            <h2 className="text-3xl font-bold">Ready to Work With Us?</h2>
+            <p className="text-xl text-gray-200 mt-6 max-w-3xl mx-auto">
+              Partner with Amesoade for innovative engineering solutions that
+              drive your business forward.
+            </p>
+            <button
+              href="/contact us"
+              className="mt-8 bg-white text-black px-6 py-3 rounded-md font-medium"
+            >
+              Contact Us Today
+            </button>
+          </div>
+        </section>
+        <Footer />
       </div>
     );
 }
