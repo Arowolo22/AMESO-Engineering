@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Navbar from "@/components/Navbar";
+import Link from "next/link";
 import {
   CheckCircleIcon,
   AwardIcon,
@@ -135,12 +136,12 @@ export default function AboutPage(){
               Partner with Amesoade for innovative engineering solutions that
               drive your business forward.
             </p>
-            <button
-              href="/contact us"
-              className="mt-8 bg-white text-black px-6 py-3 rounded-md font-medium"
+            <Link
+              href="/#contact"
+              className="inline-flex px-4 py-3 rounded-md bg-white mt-4 text-black mx-auto"
             >
-              Contact Us Today
-            </button>
+             Contact Us Today
+            </Link>
           </div>
         </section>
         <Footer />

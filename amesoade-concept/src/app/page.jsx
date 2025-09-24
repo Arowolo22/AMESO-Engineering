@@ -257,9 +257,12 @@ export default function HomePage() {
               </div>
 
               <div className="mt-8">
-                <button href="/about" className="bg-black px-3 py-4 rounded-md">
-                  Learn more About us
-                </button>
+                <Link
+                  href="/about"
+                  className="inline-flex px-4 py-3 rounded-md bg-black text-white mx-auto"
+                >
+                  Learn More About Us
+                </Link>
               </div>
             </div>
             <div className="rounded-lg overflow-hidden shadow-lg">
@@ -282,12 +285,12 @@ export default function HomePage() {
             Contact our team today to discuss how Amesoade's engineering
             solutions can help optimize your production processes.
           </p>
-          <button
-            href="/contact"
-            className="mt-8 bg-white text-black px-6 py-3 rounded-md font-medium"
+          <Link
+            href="/#contact"
+            className="inline-flex px-4 py-3 rounded-md bg-white text-black mt-4 mx-auto"
           >
             Contact Us Today
-          </button>
+          </Link>
         </div>
       </section>
       <Footer />

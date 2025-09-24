@@ -1,5 +1,6 @@
 import Image from "next/image"
 import Navbar from "@/components/Navbar"
+import Link from "next/link";
 import {
   CheckCircleIcon,
   WrenchIcon,
@@ -270,12 +271,12 @@ export default function ServicePage (){
               Contact our service team today to discuss how we can support your
               industrial machinery needs.
             </p>
-            <button
-              href="/contact us"
-              className="mt-8 bg-white text-black px-6 py-3 rounded-md font-medium"
+            <Link
+              href="/#contact"
+              className="inline-flex px-4 py-3 rounded-md bg-white mt-4 text-black mx-auto"
             >
-             Get In Touch
-            </button>
+              Get in Touch
+            </Link>
           </div>
         </section>
         <Footer />
