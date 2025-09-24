@@ -21,10 +21,10 @@ export default function Hero() {
           </p>
           <div className="flex flex-wrap gap-4">
             <Link
-              href="/products"
+              href="/machines"
               className="inline-flex items-center rounded-md bg-black px-4 py-2 text-sm font-bold text-white shadow-sm "
             >
-              Explore Our Products
+              Explore Our Machines
             </Link>
           </div>
         </div>

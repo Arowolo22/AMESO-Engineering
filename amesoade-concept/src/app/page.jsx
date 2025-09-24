@@ -41,7 +41,7 @@ export default function HomePage() {
                   cutting and shaping operations.
                 </p>
                 <Link
-                  href="/products"
+                  href="/machines"
                   className="text-blue-900 mt-4 inline-flex items-center font-medium"
                 >
                   Learn More <span className="ml-2">→</span>
@@ -68,7 +68,7 @@ export default function HomePage() {
                   dimensions.
                 </p>
                 <Link
-                  href="/products"
+                  href="/machines"
                   className="text-blue-700 mt-4 inline-flex items-center font-medium"
                 >
                   Learn More <span className="ml-2">→</span>
@@ -95,7 +95,7 @@ export default function HomePage() {
                   ventilation, and insect protection.
                 </p>
                 <Link
-                  href="/products"
+                  href="/machines"
                   className="text-blue-700 mt-4 inline-flex items-center font-medium"
                 >
                   Learn More <span className="ml-2">→</span>
@@ -106,10 +106,10 @@ export default function HomePage() {
 
           <div className="text-center mt-12">
             <Link
-              href="/products"
+              href="/machines"
               className="inline-flex px-4 py-3 rounded-md bg-black text-white mx-auto"
             >
-              View All Products
+              View All Machines
             </Link>
           </div>
         </div>

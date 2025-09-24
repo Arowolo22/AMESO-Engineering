@@ -49,7 +49,7 @@ export default function Footer() {
                   href="/about"
                   className="text-gray-400 hover:text-white transition-colors duration-300"
                 >
-                  About Us
+                  About 
                 </Link>
               </li>
               <li>
@@ -66,6 +66,14 @@ export default function Footer() {
                   className="text-gray-400 hover:text-white transition-colors duration-300"
                 >
                   Services
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/machines"
+                  className="text-gray-400 hover:text-white transition-colors duration-300"
+                >
+                  Machines
                 </Link>
               </li>
             </ul>
