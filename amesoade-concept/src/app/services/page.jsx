@@ -1,7 +1,7 @@
 import Image from "next/image"
 import Navbar from "@/components/Navbar"
 import Link from "next/link";
-import Rubber from "../../assets/rubber.jpg";
+
 import {
   CheckCircleIcon,
   WrenchIcon,
@@ -134,7 +134,7 @@ export default function ServicePage (){
               </div>
               <div className="order-1 lg:order-2 rounded-lg overflow-hidden shadow-lg">
                 <Image
-                  src={Rubber}
+                  src="/rubber.jpg"
                   alt="Rubber-Machine"
                   className="object-cover w-full"
                   width={200}
