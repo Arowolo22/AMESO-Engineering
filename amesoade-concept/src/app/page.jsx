@@ -3,8 +3,6 @@ import Hero from "@/components/Hero";
 import Footer from "@/components/Footer"
 import Image from "next/image";
 import Link from "next/link";
-import Lathe from "../../assets/lathe.jpg";
-import Home from "../../assets/home.jpg"
 import { CheckCircleIcon, CogIcon, WrenchIcon, HammerIcon } from "lucide-react";
 
 export default function HomePage() {
@@ -28,9 +26,11 @@ export default function HomePage() {
 
             <div className="bg-gray-50 rounded-xl shadow-md hover:-translate-y-1">
               <Image
-                src={Lathe}
+                src="/lathe.jpg"
                 alt="lathe-machine"
                 className="w-full h-64 object-cover rounded-lg"
+                width={200}
+                height={200}
               />
               <div className="p-4">
                 <h3 className="text-lg font-semibold text-gray-900">
@@ -267,9 +267,11 @@ export default function HomePage() {
             </div>
             <div className="rounded-lg overflow-hidden shadow-lg">
               <Image
-                src={Home}
+                src="/home.jpg"
                 alt="about-us"
                 className="w-full h-full object-cover"
+                width={200}
+                height={200}
               />
             </div>
           </div>
