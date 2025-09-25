@@ -261,7 +261,7 @@ export default function ServicePage (){
           </div>
         </section>
 
-        <section className="py-16 text-white bg-blue-700">
+        <section className="py-16 text-black bg-gray-100">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl md:text-4xl font-bold">
               Ready to Optimize Your Operations?
@@ -272,7 +272,7 @@ export default function ServicePage (){
             </p>
             <Link
               href="/#contact"
-              className="inline-flex px-4 py-3 rounded-md bg-white mt-4 text-black mx-auto"
+              className="inline-flex px-4 py-3 rounded-md bg-black mt-4 text-white mx-auto"
             >
               Get in Touch
             </Link>

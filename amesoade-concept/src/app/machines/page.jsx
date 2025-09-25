@@ -140,18 +140,18 @@ export default function ProductsPage() {
         </div>
       </section>
 
-      <section className="bg-blue-700 text-white py-16">
+      <section className="bg-gray-100 text-black py-16">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-3xl  text-center">
           <h1 className="font-bold text-3xl">
             Need a Custom Machine Solution?
           </h1>
-          <p className="text-gray-200 mx-auto text-lg md:text-xl max-w-3xl mt-4">
+          <p className=" mx-auto text-lg md:text-xl max-w-3xl mt-4">
             Our engineering team can design and build custom machinery to meet
             your specific requirements.
           </p>
           <Link
             href="/#contact"
-            className="inline-flex px-4 py-3 rounded-md bg-white mt-5 text-black mx-auto "
+            className="inline-flex px-4 py-3 rounded-md bg-black mt-5 text-white mx-auto "
           >
             Discuss Your Project
           </Link>

@@ -278,7 +278,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="py-16 bg-blue-700 text-white">
+      <section className="py-16 bg-gray-100 text-black">
         <div className="container mx-auto px-4 md:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-semibold">
             Ready to Elevate Your Industrial Operations?
@@ -289,7 +289,7 @@ export default function HomePage() {
           </p>
           <Link
             href="/#contact"
-            className="inline-flex px-4 py-3 rounded-md bg-white text-black mt-4 mx-auto"
+            className="inline-flex px-4 py-3 rounded-md bg-black text-white mt-4 mx-auto"
           >
             Contact Us Today
           </Link>

@@ -129,16 +129,16 @@ export default function AboutPage(){
             </div>
           </div>
         </section>
-        <section className="py-16 bg-blue-700 text-white">
+        <section className="py-16 bg-gray-100 text-black">
           <div className="container px-4 md:px-6 lg:px-8 mx-auto text-center">
             <h2 className="text-3xl font-bold">Ready to Work With Us?</h2>
-            <p className="text-xl text-gray-200 mt-6 max-w-3xl mx-auto">
+            <p className="text-xl  mt-6 max-w-3xl mx-auto">
               Partner with Amesoade for innovative engineering solutions that
               drive your business forward.
             </p>
             <Link
               href="/#contact"
-              className="inline-flex px-4 py-3 rounded-md bg-white mt-4 text-black mx-auto"
+              className="inline-flex px-4 py-3 rounded-md bg-black mt-4 text-white mx-auto"
             >
               Contact Us Today
             </Link>
