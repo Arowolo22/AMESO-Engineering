@@ -153,7 +153,7 @@ export default function ProductsPage() {
             href="/#contact"
             className="inline-flex px-4 py-3 rounded-md bg-white mt-5 text-black mx-auto "
           >
-            Discus Your Project
+            Discuss Your Project
           </Link>
         </div>
       </section>
