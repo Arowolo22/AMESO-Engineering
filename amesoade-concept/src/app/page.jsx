@@ -4,6 +4,7 @@ import Footer from "@/components/Footer"
 import Image from "next/image";
 import Link from "next/link";
 import Lathe from "../../assets/lathe.jpg";
+import Rubber from "../../assets/rubber.jpg";
 import Home from "../../assets/home.jpg"
 import { CheckCircleIcon, CogIcon, WrenchIcon, HammerIcon } from "lucide-react";
 
@@ -80,7 +81,7 @@ export default function HomePage() {
 
             <div className="bg-gray-50 rounded-xl shadow-md hover:-translate-y-1">
               <Image
-                src="/rubber.jpg"
+                src={Rubber}
                 alt="rubber-machine"
                 className="w-full h-64 object-cover rounded-lg"
                 width={200}

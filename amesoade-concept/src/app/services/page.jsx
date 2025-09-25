@@ -1,6 +1,7 @@
 import Image from "next/image"
 import Navbar from "@/components/Navbar"
 import Link from "next/link";
+import Rubber from "../../assets/Rubber.jpg";
 import {
   CheckCircleIcon,
   WrenchIcon,
@@ -129,14 +130,12 @@ export default function ServicePage (){
                     </p>
                   </div>
                 </div>
-                {/* <button href="/contact">
-                  Schedule Installation
-                </button> */}
+                
               </div>
               <div className="order-1 lg:order-2 rounded-lg overflow-hidden shadow-lg">
                 <Image
-                  src="/rubber.jpg"
-                  alt="Rrince-Machine"
+                  src={Rubber}
+                  alt="Rubber-Machine"
                   className="object-cover w-full"
                   width={200}
                   height={200}
