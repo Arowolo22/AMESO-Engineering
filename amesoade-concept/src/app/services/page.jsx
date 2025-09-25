@@ -1,7 +1,7 @@
 import Image from "next/image"
 import Navbar from "@/components/Navbar"
 import Link from "next/link";
-import Rubber from "../../assets/Rubber.jpg";
+import Rubber from "../../assets/rubber.jpg";
 import {
   CheckCircleIcon,
   WrenchIcon,
