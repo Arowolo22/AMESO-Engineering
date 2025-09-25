@@ -86,7 +86,7 @@ export default function AboutPage(){
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              <div className="bg-white p-8 rounded-lg shadow-md text-center">
+              <div className="bg-white p-8 rounded-lg shadow-md hover:-translate-y-1 text-center">
                 <div className="bg-black p-3 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6">
                   <TargetIcon size={28} className="text-white" />
                 </div>
@@ -100,7 +100,7 @@ export default function AboutPage(){
                 </p>
               </div>
 
-              <div className="bg-white p-8 rounded-lg shadow-md text-center">
+              <div className="bg-white p-8 rounded-lg shadow-md hover:-translate-y-1 text-center">
                 <div className="bg-black p-3 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6">
                   <AwardIcon size={28} className="text-white" />
                 </div>
@@ -114,7 +114,7 @@ export default function AboutPage(){
                 </p>
               </div>
 
-              <div className="bg-white p-8 rounded-lg shadow-md text-center">
+              <div className="bg-white p-8 rounded-lg shadow-md hover:-translate-y-1 text-center">
                 <div className="bg-black p-3 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6">
                   <UsersIcon size={28} className="text-white" />
                 </div>
@@ -140,7 +140,7 @@ export default function AboutPage(){
               href="/#contact"
               className="inline-flex px-4 py-3 rounded-md bg-white mt-4 text-black mx-auto"
             >
-             Contact Us Today
+              Contact Us Today
             </Link>
           </div>
         </section>

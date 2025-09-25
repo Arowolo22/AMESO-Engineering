@@ -43,7 +43,7 @@ export default function ServicePage (){
                   At Amesoade, we provide comprehensive services that cover the
                   entire lifecycle of your industrial machinery from initial
                   consultation and design to installation, maintenance, and
-                  cutting of sleeve and crank shaft.
+                  cutting of sleeve and crank shaft and also making of net rubbers of different sizes.
                 </p>
                 <p className="text-lg text-gray-600">
                   Our team of experienced engineers and technicians ensures that
