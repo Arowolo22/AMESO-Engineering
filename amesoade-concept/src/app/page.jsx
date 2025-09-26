@@ -42,7 +42,7 @@ export default function HomePage() {
                 </p>
                 <Link
                   href="/machines"
-                  className="text-blue-900 mt-4 inline-flex items-center font-medium"
+                  className="text-black mt-4 inline-flex items-center font-medium"
                 >
                   Learn More <span className="ml-2">→</span>
                 </Link>
@@ -69,7 +69,7 @@ export default function HomePage() {
                 </p>
                 <Link
                   href="/machines"
-                  className="text-blue-700 mt-4 inline-flex items-center font-medium"
+                  className="text-black mt-4 inline-flex items-center font-medium"
                 >
                   Learn More <span className="ml-2">→</span>
                 </Link>
@@ -96,7 +96,7 @@ export default function HomePage() {
                 </p>
                 <Link
                   href="/machines"
-                  className="text-blue-700 mt-4 inline-flex items-center font-medium"
+                  className="text-black mt-4 inline-flex items-center font-medium"
                 >
                   Learn More <span className="ml-2">→</span>
                 </Link>
