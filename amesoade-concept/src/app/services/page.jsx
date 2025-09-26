@@ -81,7 +81,7 @@ export default function ServicePage (){
             {/* Machine Installation */}
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-24">
               <div className="order-2 lg:order-1">
-                <div className="inline-flex items-center bg-blue-100 text-blue-700 px-4 py-2 rounded-full text-sm font-medium mb-4">
+                <div className="inline-flex items-center bg-black text-white px-4 py-2 rounded-full text-sm font-medium mb-4">
                   <div size={18} className="mr-2" /> Machine Installation
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">
@@ -155,7 +155,7 @@ export default function ServicePage (){
                 />
               </div>
               <div>
-                <div className="inline-flex items-center bg-blue-100 text-blue-700 px-4 py-2 rounded-full text-sm font-medium mb-4">
+                <div className="inline-flex items-center bg-black text-white px-4 py-2 rounded-full text-sm font-medium mb-4">
                   <WrenchIcon size={18} className="mr-2" /> Maintenance & Repair
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">
@@ -204,7 +204,7 @@ export default function ServicePage (){
             {/* Consultation Services */}
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div>
-                <div className="inline-flex items-center bg-blue-100 text-blue-700 px-4 py-2 rounded-full text-sm font-medium mb-4">
+                <div className="inline-flex items-center bg-black text-white px-4 py-2 rounded-full text-sm font-medium mb-4">
                   <ClipboardCheckIcon size={18} className="mr-2" /> Consultation
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">
