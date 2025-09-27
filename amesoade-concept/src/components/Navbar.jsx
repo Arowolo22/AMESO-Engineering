@@ -46,7 +46,7 @@ export default function Navbar() {
 
           <button
             type="button"
-            className="md:hidden inline-flex items-center justify-center rounded-md p-2 text-black hover:bg-gray-100 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+            className="md:hidden inline-flex items-center justify-center rounded-md p-2 text-black hover:bg-gray-100  focus:outline-none focus:ring-2"
             aria-expanded={isMobileMenuOpen}
             aria-label="Toggle menu"
             onClick={() => setIsMobileMenuOpen((open) => !open)}
